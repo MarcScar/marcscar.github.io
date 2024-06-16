@@ -1,9 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background-color: black;
-  color: white;
   font-family: "Rubik Distressed", system-ui;
 
   &:not(:has(section:target)) {
@@ -17,9 +15,6 @@ section {
   height: 720px;
   max-width: 1280px;
   margin: 0 auto;
-  border: white;
-  background-repeat: no-repeat;
-  background-position: center;
   display: none;
 
   &:target {
@@ -29,7 +24,6 @@ section {
 
 section#scimitar {
   background-image: url(../images/scimitar.jpeg);
-  color: #F4CEA3;
   color: #FEFFFE;
 }
 
@@ -50,7 +44,7 @@ section#tattoo {
 
 section#attitude {
   background-image: url(../images/butterfly.jpeg);
-  color: #C82A1D;
+  color: #E53233;
 }
 
 h1,
