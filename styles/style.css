@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "Rubik Distressed", system-ui;
+
+  &:not(:has(section:target)) {
+    & section:first-of-type {
+      display: block;
+    }
+  }
+}
+
+section {
+  height: 720px;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+
+  &:target {
+    display: block;
+  }
+}
+
+section#scimitar {
+  background-image: url(../images/scimitar.jpeg);
+  color: #F4CEA3;
+}
+
+section#guitar {
+  background-image: url(../images/guitar.jpeg);
+  color: #8C826C;
+  color: #91846C;
+  color: #F7D8B8;
+}
+
+section#coffee {
+  background-image: url(../images/coffee.jpeg);
+  color: #F6C6C1;
+  color: #FDF3DF;
+}
+
+section#tatoo {
+  background-image: url(../images/tatoo.jpeg);
+  color: #BBBBC5;
+}
+
+section#attitude {
+  background-image: url(../images/butterfly.jpeg);
+  color: #C82A1D;
+}
+
+h1,
+h2 {
+  padding-top: 200px;
+  padding-left: 110px;
+  margin-top: 0;
+}
+
+h3 {
+  padding-top: 262px;
+  padding-left: 880px;
+  font-size: 1.5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Rubik Iso", system-ui;
+}
+
+a:hover {
+  font-family: "Rubik Distressed", system-ui;
+}
+
+footer {
+  color: white;
+}
