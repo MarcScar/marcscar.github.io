@@ -34,19 +34,16 @@ section#scimitar {
 
 section#guitar {
   background-image: url(../images/guitar.jpeg);
-  color: #8C826C;
-  color: #91846C;
   color: #F7D8B8;
 }
 
 section#coffee {
   background-image: url(../images/coffee.jpeg);
-  color: #F6C6C1;
   color: #FDF3DF;
 }
 
-section#tatoo {
-  background-image: url(../images/tatoo.jpeg);
+section#tattoo {
+  background-image: url(../images/tattoo.jpeg);
   color: #BBBBC5;
 }
 
