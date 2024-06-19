@@ -1,10 +1,17 @@
+/* * * * * * * * * * * * * * *
+
+  Marc Scar 2024
+
+ * * * * * * * * * * * * * * */
+
+
 body {
   margin: 0;
   background-color: #FDF6E4;
   font-family: "Didact Gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  line-height: 25px;
+  line-height: 1.5em;
 
   &:not(:has(section:target)) {
     & section:first-of-type {
@@ -28,54 +35,87 @@ header {
   text-align: center;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: "Rubik Distressed", system-ui;
   text-align: center;
   font-size: 2.5em;
   font-weight: normal;
-  margin-top: 18px;
+  margin-top: 32px;
 }
 
-section a {
-  color: black;
-  font-family: "Rubik Iso", system-ui;
+h1 {
+  font-size: 2.5em;
+  margin-top: 32px;
+}
+
+h2 {
+  margin-top: -150px;
+  margin-left: 700px;
+  font-size: 1.3em;
+  color: white;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+  margin-top: 28px;
 }
 
 a {
+  color: black;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section a {
+  font-family: "Rubik Iso", system-ui;
 }
 
 section a:hover {
   font-family: "Rubik Distressed", system-ui;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: black;
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
 }
 
-main {
-  max-width: 650px;
-  margin: 80px auto;
-  padding: 0 50px 20px;
-  border: 1px solid #252527;
-  box-sizing: border-box;
+main a, footer a {
+  font-family: "Didact Gothic", sans-serif;
+  color: #EA8185;
+}
+
+main a:hover {
+  font-family: "Didact Gothic", sans-serif;
+  color: #64201D;
+}
+
+main p {
+  margin: 0;
+  padding: 0;
 }
 
 footer {
   text-align: center;
   background-color: #252527;
   color: white;
-  padding: 5px;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
-h3 {
-  font-size: 1em;
-  font-weight: normal;
-  margin-bottom: 3px;
+footer p {
+  color: #FDF6E4;
+  display: inline-block;
+  width: 30%;
 }
 
-ul,
-ol {
-  margin-top: 0;
+footer a:hover {
+  color: white;
 }
