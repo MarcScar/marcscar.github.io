@@ -13,6 +13,8 @@ body {
   font-style: normal;
   line-height: 1.5em;
 
+
+  /* This has the effect of hiding all of the sections, except the first. */
   &:not(:has(section:target)) {
     & section:first-of-type {
       display: block;
@@ -23,6 +25,7 @@ body {
 section {
   display: none;
 
+  /* This displays the section specified in the URL's target. */
   &:target {
     display: block;
   }
