@@ -83,23 +83,23 @@ section a:hover {
   font-family: "Rubik Distressed", system-ui;
 }
 
-main {
+div {
   max-width: 700px;
   margin: 0 auto;
   padding: 0;
 }
 
-main a, footer a {
+div a, footer a {
   font-family: "Didact Gothic", sans-serif;
   color: #EA8185;
 }
 
-main a:hover {
+div a:hover {
   font-family: "Didact Gothic", sans-serif;
   color: #64201D;
 }
 
-main p {
+div p {
   margin: 0;
   padding: 0;
 }
@@ -123,4 +123,16 @@ footer p {
 
 footer a:hover {
   color: white;
+}
+
+ol {
+  margin: 0;
+  padding-left: 60px;
+}
+
+li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
 }
